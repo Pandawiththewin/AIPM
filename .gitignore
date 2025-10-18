@@ -1,0 +1,26 @@
+﻿# Env & secrets
+.env
+*.env
+server/.env
+automation/.env
+
+# Node
+node_modules/
+npm-debug.log*
+server/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+automation/__pycache__/
+
+# DB / artifacts
+*.sqlite
+*.db
+ai_pm.db
+server/ai_pm.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
